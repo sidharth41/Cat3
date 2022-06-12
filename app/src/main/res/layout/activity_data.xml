@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Data">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:padding="50dp"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:padding="50dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:text="Enter Data"
+            android:textAlignment="center"
+            android:textStyle="bold"
+
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:layout_height="wrap_content"/>
+
+        <EditText
+        android:layout_width="250dp"
+        android:id="@+id/name"
+        android:layout_height="60dp"
+         />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/password"
+            android:layout_height="60dp"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/save"
+            android:text="Shared Preferance"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/SQL"
+            android:text="SQL"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Firebase"
+            android:text="Firebase"
+
+
+            android:layout_height="60dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+
+            android:text="View Data"
+            android:textAlignment="center"
+            android:textStyle="bold"
+
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Nameid"
+            android:hint="Name"
+            android:layout_height="60dp"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/View"
+            android:text="View Data"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ViewSQL"
+            android:text="View in SQL"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ViewFirebase"
+            android:text="View in Firebase"
+            android:layout_height="60dp"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

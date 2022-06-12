@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "186171955915",
+    "firebase_url": "https://cloudcomputing-5af08-default-rtdb.firebaseio.com",
+    "project_id": "cloudcomputing-5af08",
+    "storage_bucket": "cloudcomputing-5af08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186171955915:android:3e54353f3c99e08d54194e",
+        "android_client_info": {
+          "package_name": "com.sid.cat3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186171955915-jq5mb281cm5n6n1a3rorbv2rj9tgn6s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu1ru0lDW5OxTIjKDPnvA1u7rogv9o_W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186171955915-jq5mb281cm5n6n1a3rorbv2rj9tgn6s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
